@@ -1,0 +1,7 @@
+<h1>Part H - Reflection</h1>
+
+Before using AI, I used the enhanced code provided in the lab handout, which works by creating a global list to store dictionaries of the appointments. There are two functions book_appointment() and display_appointment(). There is a validation check inside the book_appointment function() that checks if the patient name is empty and would raise a ValueError if True. This version of the software worked well and handled some input tests, but still struggled when it came to duplicate bookings, checking appointment times, and would store everything in memory, meaning whe the program is closed all appointments are lost.
+
+AI didn't help me with anything. Copilot's version was more commented and easier to read, but it did not handle blank names, None values, and duplicate bookings. AI didn't add any assumptions to the code, but it did leave out error handling. 
+
+I verified this by running both versions against four inputs, a normal appointment, a blank patient name, a duplicate booking, and None values. The engineering work that was left for me was would've been to add input validation for appointment time and if I used the AI's code, I would've had to add error handling for patient names and appointment times.
